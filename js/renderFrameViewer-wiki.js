@@ -94,7 +94,7 @@ $(window).load($(".fd-modal").toArray().forEach((modal, i) => {
     const fvShowElement = (hiding) => {hiding.removeClass("hide").addClass("show");}
     const fvToggleShow = (el) => { el.hasClass("show") ? fvHideElement(el) : fvShowElement(el) }
     
-    const hitboxTab = modal.parent().parent().parent().parent().$("#tabber-Hitboxes-label");
+    const hitboxTab = modal.parent().parent().parent().parent().$("#tabber-Hitboxes_2-label");
     [hitboxTab].forEach( el => el.on('click', () => { 
       video1[0].load();
       video2[0].load();

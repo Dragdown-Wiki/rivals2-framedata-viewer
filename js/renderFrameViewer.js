@@ -12,7 +12,7 @@ $(window).load($(".fd-modal").toArray().forEach((modal, i) => {
     let controlsContainer = $( `<div class=""></div>` );
     let hitboxTab;
     if(Object.keys($("#tabber-Hitboxes-label")) === 0){
-      hitboxTab = modal.parent().parent().parent().parent().$("#tabber-Hitboxes-label");
+      hitboxTab = modal.parent().parent().parent().parent().$("#tabber-Hitboxes_2-label");
     }
   
     let iconSize = (size) => `${size || 4}rem`;
